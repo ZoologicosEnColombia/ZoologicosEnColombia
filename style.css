@@ -391,11 +391,14 @@ HEADER
     top: 27px;
     width: 40px;
     z-index: 111;
-    transform: rotate(315deg);
+    transform: rotate(90deg);
     color: white;
 }
 
-.close,
+.close{
+    opacity: 0.8;
+    text-shadow: none;
+}
 .close:focus,
 .close:hover {
     opacity: 1;
