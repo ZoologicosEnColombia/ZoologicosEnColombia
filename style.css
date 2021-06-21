@@ -280,7 +280,6 @@ HEADER
 
 .navbar-default .nav>li>a {
     color: #fff !important;
-    text-transform: capitalize;
     font-size: 15px;
     font-weight: 500;
     outline: none;
@@ -1007,6 +1006,15 @@ SECTIONS
     padding: 0;
     line-height: 1.2;
     font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: GeoItalic;
+}
+.section-title h6 {
+    margin: 40px 120px 40px;
+    padding: 0;
+    line-height: 1.2;
+    font-size: 23px;
     font-weight: 400;
     font-style: normal;
     font-family: GeoItalic;
@@ -2157,12 +2165,12 @@ blockquote:after,
 .course-box small,
 .course-details h4:hover a,
 .course-footer i,
-a:hover,
-a:focus,
+
 .box i,
 .topbar .text-left i {
     color: #01bacf;
 }
+
 
 .shop-extra .nav-tabs>li:hover a,
 .shop-extra .nav-tabs>li.active a,
